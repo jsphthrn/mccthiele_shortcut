@@ -13,7 +13,10 @@ cp = [53.8074, 60.7544] # kcal/mol °C
 pm = [100.2, 114.2]     
 pt = 1.013              # bar
 
+
+
+
 eq = eqCalc(a, b, c, l, cp, pm, pt)
 mcPlot(eq[3], eq[4])
 txPlot(eq[0], eq[3], eq[4])
-
+hPlot(eq[6], eq[7], eq[3], eq[4])
